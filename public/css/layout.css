@@ -1,0 +1,22 @@
+.my-card-body{
+    height: calc(100vh - (55.05px + 40.05px));
+}
+
+.my-card-body2{
+    height: calc(100vh - (55.05px + 40.05px));
+}
+/*　vh = view height  100vhは全画面 */
+
+/* ellipsisを当てるとテキストが一行になる */
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 768px){
+    .my-card-body{
+        height: auto;
+        max-height: 50vh;
+    }
+}
